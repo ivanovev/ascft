@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 
+'''
+params template:
+server: xxx
+name: xxx
+password: xxx
+prg: xxx
+mtk: xxx
+hh: xxx
+'''
+
 import sys, yaml
 from telnetlib import Telnet
 
